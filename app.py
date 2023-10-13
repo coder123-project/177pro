@@ -21,12 +21,15 @@ templates = [
 def index():
   return render_template("index.html")
 
-@app.route("/get-template")
-def get_template():
-  return jsonify({
-        "status": "success",
-        "word": random.choice(templates)
-  })
+# create the routing to get data about the template
+
+
+
+
+
+
+
+
 
 if __name__ == '__main__':
   app.run()
